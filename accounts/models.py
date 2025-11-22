@@ -17,7 +17,7 @@ class Foydalanuvchi(AbstractUser):
 
     class Meta:
         verbose_name = "Foydalanuchi"
-        verbose_name_plual = "Foydalanuvchilar"
+        verbose_name_plural = "Foydalanuvchilar"
 
     def __str__(self):
         return self.username

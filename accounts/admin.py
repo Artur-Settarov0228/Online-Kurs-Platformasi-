@@ -6,7 +6,7 @@ from . models import Foydalanuvchi
 @admin.register(Foydalanuvchi)
 class FoydalanuvchiAdmin(admin.ModelAdmin):
 
-    list_display = ['username', 'email', 'rol', 'is_staff', 'Yartilgan_sana']
+    list_display = ['username', 'email', 'rol', 'is_staff', 'yaratilgan_sana']
 
     list_filter = ['rol', 'is_staff', 'is_superuser']
 
